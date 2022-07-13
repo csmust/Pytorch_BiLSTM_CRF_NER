@@ -17,11 +17,14 @@ https://youtube.com/playlist?list=PLWzxIFEnlNFHCOOBv_Vz60IcH0gXup0BI
 - P3 http://www.ichenhua.cn/read/390
 - P4 http://www.ichenhua.cn/read/391
 - P5 http://www.ichenhua.cn/read/392
-- P6 http://www.ichenhua.cn/read/393
-- P7 http://www.ichenhua.cn/read/394
-- P8 http://www.ichenhua.cn/read/395
-- P9 http://www.ichenhua.cn/read/396
-- P10 http://www.ichenhua.cn/read/397
-- P11 http://www.ichenhua.cn/read/398
+- P6 http://www.ichenhua.cn/read/394
+- P7 http://www.ichenhua.cn/read/395
+- P8 http://www.ichenhua.cn/read/396
+- P9 http://www.ichenhua.cn/read/397
+- P10 http://www.ichenhua.cn/read/398
 
-### 代码平台
+### 更新日志
+- 220512 - first commit
+- 220612 - first version complete
+- 220713 - modify torch-crf method.
+
