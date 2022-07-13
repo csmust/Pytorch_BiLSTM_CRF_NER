@@ -17,6 +17,7 @@ if __name__ == '__main__':
     for e in range(EPOCH):
         for b, (input, target, mask) in enumerate(loader):
             y_pred = model(input, mask)
+
             loss = model.loss_fn(input, target, mask)
 
             optimizer.zero_grad()

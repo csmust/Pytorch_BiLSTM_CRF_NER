@@ -7,7 +7,7 @@ if __name__ == '__main__':
     loader = data.DataLoader(dataset, batch_size=100, collate_fn=collate_fn)
 
     with torch.no_grad():
-        model = torch.load(MODEL_DIR + 'model_5.pth')
+        model = torch.load(MODEL_DIR + 'model_0.pth')
 
         y_true_list = []
         y_pred_list = []

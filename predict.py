@@ -8,9 +8,10 @@ if __name__ == '__main__':
     input = torch.tensor([[word2id.get(w, WORD_UNK_ID) for w in text]])
     mask = torch.tensor([[1] * len(text)]).bool()
 
-    model = torch.load(MODEL_DIR + 'model_5.pth')
+    model = torch.load(MODEL_DIR + 'model_0.pth')
     y_pred = model(input, mask)
     id2label, _ = get_label()
+
     label = [id2label[l] for l in y_pred[0]]
     print(text)
     print(label)

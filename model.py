@@ -14,7 +14,7 @@ class Model(nn.Module):
             bidirectional=True,
         )
         self.linear = nn.Linear(2 * HIDDEN_SIZE, TARGET_SIZE)
-        self.crf = CRF(TARGET_SIZE)
+        self.crf = CRF(TARGET_SIZE, batch_first=True)
 
     def _get_lstm_feature(self, input):
         out = self.embed(input)
